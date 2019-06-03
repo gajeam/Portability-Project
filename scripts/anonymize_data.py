@@ -9,7 +9,10 @@ from faker import Faker
 
 import filename
 
-ANONYMIZED_DIRECTORY_NAME = "facebook-data-anonymous"
+DIRECTORY_ANONYMIZED = "../facebook-data-anonymous"
+DIRECTORY_FACEBOOK_DATA = "../facebook-data"
+DIRECTORY_DATASTRUCTURES = "../datastructures.json"
+
 SEED_VALUE = 25
 
 DEBUG_print_missing_key_stack = False
@@ -25,17 +28,17 @@ fakes_table = {}
 
 def main():
     # Create the empty anonymous data folder
-    if os.path.exists(ANONYMIZED_DIRECTORY_NAME):
-        shutil.rmtree(ANONYMIZED_DIRECTORY_NAME)
-    os.makedirs(ANONYMIZED_DIRECTORY_NAME)
+    if os.path.exists(DIRECTORY_ANONYMIZED):
+        shutil.rmtree(DIRECTORY_ANONYMIZED)
+    os.makedirs(DIRECTORY_ANONYMIZED)
 
     for file in filename.all_files:
         print("Cleaning data for {}...".format(file))
         write_anonymized_file(file)
 
 def write_anonymized_file(filename):
-    directory = "{}/{}".format(ANONYMIZED_DIRECTORY_NAME, filename.split('/')[0])
-    output_file = "{}/{}".format(ANONYMIZED_DIRECTORY_NAME, filename)
+    directory = "{}/{}".format(DIRECTORY_ANONYMIZED, filename.split('/')[0])
+    output_file = "{}/{}".format(DIRECTORY_ANONYMIZED, filename)
     os.makedirs(directory, exist_ok=True)
 
     output_data = anonymize_file(filename)
@@ -45,9 +48,9 @@ def write_anonymized_file(filename):
     # Create the directory if it does not exist in
 
 def anonymize_file(filename):
-    with open('facebook-data/' + filename, 'r') as f:
+    with open("{}/{}".format(DIRECTORY_FACEBOOK_DATA, filename), 'r') as f:
         data = json.load(f)
-    with open('datastructures.json', 'r') as d:
+    with open(DIRECTORY_DATASTRUCTURES, 'r') as d:
         cleaning_rules = json.load(d)[filename]
     cleaned_data = _apply_rules_to_json(cleaning_rules, data)
     return data
