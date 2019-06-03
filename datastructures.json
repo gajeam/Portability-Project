@@ -1,6 +1,6 @@
 {
   "about_you/face_recognition.json": "MANUAL",
-  "about_you/friend_peer_group.json": "MANUAL",
+  "about_you/friend_peer_group.json": "IGNORE",
   "about_you/your_address_books.json": {
     "address_book": {
       "address_book": [
@@ -431,7 +431,6 @@
                   "source": "CUSTOM:(Some third-party app)",
                   "url": "URL"
                 },
-                "for_sale_item": "MANUAL",
                 "media": {
                   "comments": [
                     {
@@ -544,7 +543,7 @@
           "relation": "CUSTOM:Brother/Cousin/Family Member"
         }
       ],
-      "favorite_quotes": "MANUAL",
+      "favorite_quotes": "TEXT",
       "gender": {
         "gender_option": "CUSTOM:MALE",
         "pronoun": "CUSTOM:MALE"
