@@ -1,0 +1,321 @@
+{
+	"about_you/face_recognition.json" : "MANUAL",
+	"about_you/friend_peer_group.json" : "MANUAL",
+	"about_you/your_address_books.json" : {
+		"address_book": {
+			"address_book": [
+				{
+					"name" : "NAME",
+					"details" : [
+						{
+							"contact_point" : "PHONE"
+						}
+					],
+					"created_timestamp" : "TIMESTAMP",
+					"updated_timestamp" : "TIMESTAMP"
+				}
+			]
+		}
+	},
+	"ads/ads_interests.json" : "MANUAL",
+	"ads/advertisers_who_uploaded_a_contact_list_with_your_information.json" : "MANUAL",
+	"ads/advertisers_you've_interacted_with.json" : {
+		"history" : [
+			{
+				"title" : "TITLE",
+				"timestamp" : "TIMESTAMP",
+				"action" : "MANUAL"
+			}
+		]
+	},
+	"apps_and_websites/apps_and_websites.json" : "MANUAL",
+	"comments/comments.json" : {
+		"comments" : [
+			{
+				"timestamp" : "TIMESTAMP",
+				"data" : [
+					{
+						"comment" : {
+							"timestamp" : "TIMESTAMP",
+							"comment" : "TEXT",
+							"author" : "NAME",
+							"group" : "TITLE"
+						}
+					}
+				],
+				"attachments" : [
+					{
+						"data" : [
+							{
+								"media": {
+		            			    "uri": "CUSTOM:photos_and_videos/your_posts/some_local_path.jpg",
+					                "creation_timestamp": "TIMESTAMP",
+					                "media_metadata": {
+					                	"photo_metadata": {
+					                		"upload_ip": "CUSTOM:100.2.160.28"
+		                  			}
+		                		},
+		                		"title": "TEXT"
+			              		},
+								"external_context": {
+									"name": "TEXT",
+			                		"source": "CUSTOM:(Some third-party app)",
+									"url" : "URL"
+								}
+							}
+						]
+					}
+				],
+				"title" : "CUSTOM:So-and-so commented on Such-and-such's comment."
+
+			}
+		]
+	},
+	"events/event_invitations.json" : {
+		"events_invited" : [
+			{
+				"name" : "TITLE",
+				"start_timestamp" : "TIMESTAMP",
+				"end_timestamp" : "TIMESTAMP"
+			}
+		]
+	},
+	"events/your_event_responses.json" : {
+		"event_responses" : {
+			"events_joined" : [
+				{
+					"name" : "TITLE",
+					"start_timestamp" : "TIMESTAMP",
+					"end_timestamp" : "TIMESTAMP",
+					"place": {
+						"name" : "CUSTOM:Le Place d'Fake",
+						"address": "CUSTOM:123 Fake Street, Springfield",
+						"coordinate": {
+							"latitude": "LAT",
+							"longitude": "LON"
+						}
+			        },
+			        "description": "TEXT",
+			        "create_timestamp": "TIMESTAMP"
+				}
+			],
+			"events_interested" : [
+				{
+					"name" : "TITLE",
+					"start_timestamp" : "TIMESTAMP",
+					"end_timestamp" : "TIMESTAMP"
+				}
+			],
+			"events_declined" : [
+				{
+					"name" : "TITLE",
+					"start_timestamp" : "TIMESTAMP",
+					"end_timestamp" : "TIMESTAMP"
+				}
+			]
+		}
+	},
+	"events/your_events.json" : {
+		"your_events" : [
+			{
+				"name" : "TITLE",
+				"start_timestamp" : "TIMESTAMP",
+				"end_timestamp" : "TIMESTAMP",
+				"place": {
+					"name" : "CUSTOM:Le Place d'Fake",
+					"address": "CUSTOM:123 Fake Street, Springfield",
+					"coordinate": {
+						"latitude": "LAT",
+						"longitude": "LON"
+					}
+		        },
+		        "description": "TEXT",
+		        "create_timestamp": "TIMESTAMP"
+		    }
+		]
+	},
+	"following_and_followers/followed_pages.json" : {
+		"pages_followed": [
+			{
+				"timestamp" : "TIMESTAMP",
+				"data" : [
+					{
+						"name" : "TITLE"
+					}
+				],
+				"title" : "TITLE"
+			}
+		]
+	},
+	"following_and_followers/following.json" : {
+		"following" : [
+			{
+				"name" : "TITLE",
+				"timestamp" : "TIMESTAMP"
+			}
+		]
+	},
+	"following_and_followers/unfollowed_pages.json" : {
+		"pages_unfollowed": [
+			{
+				"timestamp" : "TIMESTAMP",
+				"data" : [
+					{
+						"name" : "TITLE"
+					}
+				],
+				"title" : "TITLE"
+			}
+		]
+	},
+	"friends/friends.json" : {
+		"friends" : [
+			{
+				"name" : "NAME",
+				"timestamp" : "TIMESTAMP",
+				"contact_info": "EMAIL" 
+			}
+		]
+	},
+	"friends/rejected_friend_requests.json" : {
+		"rejected_requests" : [
+			{
+				"name" : "NAME",
+				"timestamp" : "TIMESTAMP",
+				"marked_as_spam" : "BOOL"
+			}
+		]
+	},
+	"friends/removed_friends.json" : {
+		"deleted_friends" : [
+			{
+				"name" : "NAME",
+				"timestamp" : "TIMESTAMP"
+			}
+		]
+	},
+	"friends/sent_friend_requests.json" : {
+		"sent_requests" : [
+			{
+				"name" : "NAME",
+				"timestamp" : "TIMESTAMP"
+			}
+		]
+	},
+	"groups/your_group_membership_activity.json" : {
+		"groups_joined" : [
+			{
+				"timestamp" : "TIMESTAMP",
+				"attachments" : [
+					{
+						"data" : [
+							{
+								"name" : "TITLE"
+							}
+						]
+					}
+				],
+				"title" : "CUSTOM:Such-and-such group has approved your request to join this group."
+			}
+		]
+	},
+	"groups/your_groups.json" : {
+		"groups_admined" : [
+			{
+				"name" : "TITLE",
+				"timestamp" : "TIMESTAMP"
+			}
+		]
+	},
+	"groups/your_posts_and_comments_in_groups.json" : {
+		"group_posts" : {
+			"activity_log_data" : [
+				{
+					"timestamp" : "TIMESTAMP",
+					"data" : [
+						{
+							"post" : "TEXT",
+							"comment" : {
+								"timestamp" : "TIMESTAMP",
+								"comment" : "TEXT",
+								"author" : "NAME",
+								"group" : "TITLE"
+							}
+						}
+					],
+					"attachments" : [
+						{
+							"data" : [
+								{
+									"media": {
+			            			    "uri": "CUSTOM:photos_and_videos/your_posts/some_local_path.jpg",
+						                "creation_timestamp": "TIMESTAMP",
+						                "media_metadata": {
+						                	"photo_metadata": {
+						                		"upload_ip": "CUSTOM:100.2.160.28"
+			                  				}
+			                			},
+			                			"comments": [
+						                    {
+												"timestamp": "TIMESTAMP",
+												"comment": "TEXT",
+												"author": "NAME",
+												"group": "TITLE"
+						                    }
+					              		],
+			                			"title": "TEXT",
+			                			"description" : "TEXT"
+
+				              		},
+									"external_context": {
+										"name": "TEXT",
+				                		"source": "CUSTOM:(Some third-party app)",
+										"url" : "URL"
+									},
+									"poll": {
+										"question": "TEXT",
+										"options": [
+											{
+												"option": "TEXT",
+												"voted": "BOOL"
+											}
+										]
+									}
+								}
+							]
+						}
+					],
+					"title" : "CUSTOM:So-and-so commented on Such-and-such's comment.",
+					"description" : "TEXT",
+					"tags" : [
+						"NAME"
+					]
+				}
+			]
+		}
+	},
+	"likes_and_reactions/pages.json" : {
+		"page_likes": [
+			{
+				"name": "TITLE",
+				"timestamp": "TIMESTAMP"
+			}
+		]
+	},
+	"likes_and_reactions/posts_and_comments.json" : {
+		"reactions": [
+			{
+				"timestamp": "TIMESTAMP",
+				"data": [
+					{
+						"reaction": {
+							"reaction": "MANUAL",
+							"actor": "NAME"
+						}
+					}
+				],
+			"title": "CUSTOM:You liked/loved/wowed Such and such's comment."
+			}
+		]
+	}
+}
