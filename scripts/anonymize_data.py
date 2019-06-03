@@ -1,4 +1,3 @@
-import json
 import datetime
 import time
 import warnings
@@ -6,6 +5,7 @@ import os
 import shutil
 
 from faker import Faker
+import simplejson as json
 
 import filename
 
@@ -43,7 +43,7 @@ def write_anonymized_file(filename):
 
     output_data = anonymize_file(filename)
     with open(output_file, 'w') as f:
-        json.dump(output_data, f, indent=4)
+        json.dump(output_data, f, indent=2)
 
     # Create the directory if it does not exist in
 
