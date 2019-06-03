@@ -1,0 +1,19 @@
+{
+  "items_selling": [
+    {
+      "location": {
+        "coordinate": {
+          "longitude": -98.938152,
+          "latitude": -32.791376
+        }
+      },
+      "seller": "Alan Aaronson",
+      "description": "Hey folks! I'm looking to purchase a smallish bookshelf. Anyone got one they're looking to sell? Shoot me a message.",
+      "marketplace": "Chattanooga Free & For Sale",
+      "price": "$25",
+      "title": "Anyone have a bookshelf?",
+      "created_timestamp": 1559188800,
+      "category": "Furniture"
+    }
+  ]
+}

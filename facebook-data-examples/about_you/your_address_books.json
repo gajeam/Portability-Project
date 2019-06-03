@@ -1,0 +1,22 @@
+{
+  "address_book": {
+    "address_book": [
+      {
+        "name": "Timothy Bridges",
+        "details": [],
+        "updated_timestamp": 1557806400,
+        "created_timestamp": 1557806400
+      },
+      {
+        "name": "Annabel Lowe",
+        "details": [
+          {
+            "contact_point": "+18439172126"
+          }
+        ],
+        "updated_timestamp": 1559275200,
+        "created_timestamp": 1559275200
+      }
+    ]
+  }
+}

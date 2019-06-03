@@ -1,0 +1,13 @@
+{
+  "rejected_requests": [
+    {
+      "name": "Nicholas Hernandez Jr.",
+      "timestamp": 1558670400
+    },
+    {
+      "name": "Katherine Moreno",
+      "marked_as_spam": false,
+      "timestamp": 1558670400
+    }
+  ]
+}

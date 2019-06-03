@@ -1,0 +1,209 @@
+{
+  "profile": {
+    "name": {
+      "full_name": "Alan Aaronson",
+      "first_name": "Alan",
+      "middle_name": "",
+      "last_name": "Aaronson"
+    },
+    "emails": {
+      "emails": [
+        "alantheveryaaronson@gmail.com"
+      ],
+      "previous_emails": [
+        "alanaaronson9000@facebook.com"
+      ],
+      "pending_emails": [],
+      "ad_account_emails": []
+    },
+    "birthday": {
+      "year": 1991,
+      "month": 1,
+      "day": 10
+    },
+    "gender": {
+      "gender_option": "MALE",
+      "pronoun": "MALE"
+    },
+    "previous_names": [
+      {
+        "name": "Alan A-Ok Aaronson",
+        "timestamp": 1283522515
+      },
+      {
+        "name": "Alan Is-An Aaronson",
+        "timestamp": 1279868255
+      }
+    ],
+    "other_names": [
+      {
+        "name": "Allen Aaronson",
+        "type": "other"
+      }
+    ],
+    "current_city": {
+      "name": "Chattanooga, Tennessee",
+      "timestamp": 0
+    },
+    "hometown": {
+      "name": "Mufreesboro, Tennessee",
+      "timestamp": 0
+    },
+    "previous_relationships": [
+      "Rachel Reeves"
+    ],
+    "family_members": [
+      {
+        "name": "Judy Judikins",
+        "relation": "Family member"
+      },
+      {
+        "name": "Hagrid Hibberds",
+        "relation": "Aunt"
+      },
+      {
+        "name": "Annette Aaronson",
+        "relation": "Sister"
+      }
+    ],
+    "education_experiences": [
+      {
+        "name": "Tennessee University",
+        "start_timestamp": 1230796800,
+        "end_timestamp": 1357027200,
+        "graduated": true,
+        "concentrations": [
+          "English"
+        ],
+        "school_type": "College"
+      },
+      {
+        "name": "Chattnooga High School",
+        "start_timestamp": 1125558000,
+        "end_timestamp": 1230796800,
+        "graduated": true,
+        "concentrations": [],
+        "school_type": "High School"
+      }
+    ],
+    "work_experiences": [
+      {
+        "employer": "Chattanooga Department of Public Transportation",
+        "title": "Bus driver",
+        "location": "Chattanooga, Tennessee",
+        "description": "",
+        "start_timestamp": 1385884800,
+        "end_timestamp": 1451592000
+      },
+      {
+        "employer": "Happy as a Pig",
+        "title": "Hog Wrestler",
+        "location": "Mufreesboro, Tennessee",
+        "description": "",
+        "start_timestamp": 1343804400,
+        "end_timestamp": 1367391600
+      }
+    ],
+    "languages": [
+      "English language"
+    ],
+    "phone_numbers": [
+      {
+        "phone_type": "Mobile",
+        "phone_number": "+16178949071",
+        "verified": true
+      }
+    ],
+    "places_lived": [
+      {
+        "place": "Chattanooga, Tennessee",
+        "start_timestamp": 1472670000
+      },
+      {
+        "place": "Mufreesboro, Tennessee",
+        "start_timestamp": 1372618800
+      }
+    ],
+    "favorite_quotes": "",
+    "name_pronunciation": "AL-an AIR-un-son",
+    "pages": [
+      {
+        "name": "Interests",
+        "pages": [
+          "Fine Wine"
+        ]
+      },
+      {
+        "name": "Music",
+        "pages": [
+          "The Smiths",
+          "Wolfgang A. Mozart",
+          "David Bowie"
+        ]
+      },
+      {
+        "name": "Movies",
+        "pages": [
+          "Terminator 2"
+        ]
+      },
+      {
+        "name": "Television",
+        "pages": [
+          "Last Week Tonight with John Oliver",
+          "Arrested Development",
+          "Battlestar Galactica"
+        ]
+      },
+      {
+        "name": "Other",
+        "pages": [
+          "The Bus Show",
+          "Tallbird",
+          "Pinball Chattanooga",
+          "Beyond Meat",
+          "Select All",
+          "CNET"
+        ]
+      },
+      {
+        "name": "Games",
+        "pages": [
+          "Super Smash Brothers"
+        ]
+      },
+      {
+        "name": "Websites",
+        "pages": [
+          "Pitchfork"
+        ]
+      },
+      {
+        "name": "Books read",
+        "pages": [
+          "Moneyball",
+          "Neuromancer"
+        ]
+      },
+      {
+        "name": "TV shows watched",
+        "pages": [
+          "Bob's Burgers",
+          "Battlestar Galactica"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "name": "Dark Roasted Memes for Coffee-Oriented Teens",
+        "timestamp": 1543732661
+      },
+      {
+        "name": "Bus Talk",
+        "timestamp": 1534080962
+      }
+    ],
+    "registration_timestamp": 1145054594,
+    "profile_uri": "https://www.facebook.com/alanaaronson9000"
+  }
+}

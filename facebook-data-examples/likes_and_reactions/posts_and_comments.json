@@ -1,0 +1,28 @@
+{
+  "reactions": [
+    {
+      "data": [
+        {
+          "reaction": {
+            "actor": "Alan Aaronson",
+            "reaction": "LIKE"
+          }
+        }
+      ],
+      "title": "Alan Aaronson liked Frankie Freeloader's comment.",
+      "timestamp": 1558238400
+    },
+    {
+      "data": [
+        {
+          "reaction": {
+            "actor": "Alan Aaronson",
+            "reaction": "SORRY"
+          }
+        }
+      ],
+      "title": "Alan Aaronson reacted to Gabriel Grafter's post in Boys Talk.",
+      "timestamp": 1557460800
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "installed_apps": [
+    {
+      "name": "Shazam",
+      "added_timestamp": 1501593748
+    },
+    {
+      "name": "ClassPass",
+      "added_timestamp": 1499270151
+    },
+    {
+      "name": "StubHub",
+      "added_timestamp": 1493258921
+    }
+  ]
+}

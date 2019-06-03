@@ -1,0 +1,50 @@
+{
+  "payments": {
+    "preferred_currency": "USD",
+    "payments": [
+      {
+        "created_timestamp": 1500559379,
+        "amount": "0.00",
+        "currency": "USD",
+        "sender": "Alan Aaronson",
+        "receiver": "Eventbrite Events",
+        "type": "Payment",
+        "status": "Completed",
+        "payment_data": {
+          "bof_payment": {
+            "adjusted_total": "$0.00",
+            "discount_code": "",
+            "discount_amount": "$0.00",
+            "subtotal": "$0.00",
+            "tax_amount": "$0.00",
+            "shipping_cost": "$0.00",
+            "fees": [
+              {
+                "amount": "$0.00",
+                "name": "Tickets for \"And Then There Were None\" at Montgomery Burns High School"
+              }
+            ],
+            "refunded_amount": "$0.00"
+          }
+        },
+        "payment_method": "VISA ending in 1234"
+      },
+      {
+        "created_timestamp": 1498665858,
+        "amount": "14.00",
+        "currency": "USD",
+        "sender": "Alan Aaronson",
+        "receiver": "Annette Aaronson",
+        "type": "Payment",
+        "status": "Canceled",
+        "payment_data": {
+          "p2p_payment": {
+            "memo": "Dinner last night",
+            "total_amount": "$14.00"
+          }
+        },
+        "payment_method": "VISA ending in 1234"
+      }
+    ]
+  }
+}
