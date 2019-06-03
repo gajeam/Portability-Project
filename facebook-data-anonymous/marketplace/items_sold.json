@@ -1,0 +1,34 @@
+{
+  "items_selling": [
+    {
+      "location": {
+        "coordinate": {
+          "longitude": -98.938152,
+          "latitude": -32.791376
+        }
+      },
+      "seller": "Diane Marshall",
+      "description": "Hi folks, I'm trying to sell XYZ object**",
+      "marketplace": "Springfield City Stuff Sellers**",
+      "price": "$100**",
+      "title": "Please buy my XYZ object**",
+      "created_timestamp": 1559188800,
+      "category": "Springfield City Stuff Sellers**"
+    },
+    {
+      "location": {
+        "coordinate": {
+          "longitude": -27.947192,
+          "latitude": 33.4780795
+        }
+      },
+      "seller": "Diane Marshall",
+      "description": "Hi folks, I'm trying to sell XYZ object**",
+      "marketplace": "Springfield City Stuff Sellers**",
+      "price": "$100**",
+      "title": "Please buy my XYZ object**",
+      "updated_timestamp": 1559275200,
+      "created_timestamp": 1559102400
+    }
+  ]
+}

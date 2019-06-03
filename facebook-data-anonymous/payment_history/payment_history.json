@@ -1,0 +1,93 @@
+{
+  "payments": {
+    "preferred_currency": "USD**",
+    "payments": [
+      {
+        "status": "Completed/Canceled**",
+        "type": "Payment**",
+        "currency": "USD**",
+        "payment_method": "VISA ending in 1234**",
+        "receiver": "Name McPerson/SomeCompany Inc.**",
+        "sender": "Diane Marshall",
+        "payment_data": {
+          "bof_payment": {
+            "subtotal": "$0.00**",
+            "fees": [
+              {
+                "name": "Tickets for XYZ event**",
+                "amount": "$0.00**"
+              }
+            ],
+            "discount_amount": "$0.00**",
+            "shipping_cost": "$0.00**",
+            "tax_amount": "$0.00**",
+            "discount_code": "**",
+            "adjusted_total": "$0.00**",
+            "refunded_amount": "$0.00**"
+          }
+        },
+        "created_timestamp": 1558065600,
+        "amount": "$23.00**"
+      },
+      {
+        "status": "Completed/Canceled**",
+        "type": "Payment**",
+        "currency": "USD**",
+        "payment_method": "VISA ending in 1234**",
+        "receiver": "Name McPerson/SomeCompany Inc.**",
+        "sender": "Diane Marshall",
+        "payment_data": {
+          "p2p_payment": {
+            "memo": "PM anything face turn",
+            "total_amount": "$23.00**"
+          }
+        },
+        "created_timestamp": 1557720000,
+        "amount": "$23.00**"
+      },
+      {
+        "status": "Completed/Canceled**",
+        "type": "Payment**",
+        "currency": "USD**",
+        "payment_method": "VISA ending in 1234**",
+        "receiver": "Name McPerson/SomeCompany Inc.**",
+        "sender": "Diane Marshall",
+        "payment_data": {
+          "bof_payment": {
+            "subtotal": "$0.00**",
+            "fees": [
+              {
+                "name": "Tickets for XYZ event**",
+                "amount": "$0.00**"
+              }
+            ],
+            "discount_amount": "$0.00**",
+            "shipping_cost": "$0.00**",
+            "tax_amount": "$0.00**",
+            "discount_code": "**",
+            "adjusted_total": "$0.00**",
+            "refunded_amount": "$0.00**"
+          }
+        },
+        "created_timestamp": 1558584000,
+        "amount": "$23.00**"
+      },
+      {
+        "status": "Completed/Canceled**",
+        "type": "Payment**",
+        "currency": "USD**",
+        "payment_method": "VISA ending in 1234**",
+        "receiver": "Name McPerson/SomeCompany Inc.**",
+        "sender": "Thomas Mitchell",
+        "payment_data": {
+          "p2p_payment": {
+            "memo": "Outside least",
+            "total_amount": "$23.00**"
+          }
+        },
+        "created_timestamp": 1558670400,
+        "amount": "$23.00**"
+      }
+    ]
+  }
+}
