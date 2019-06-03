@@ -2,7 +2,7 @@
 
 What does Facebook's portability platform really look like? This repository will let you explore some anonymized data and anonymize your own data if you so desire.
 
-The anonymized Facebook data can be found in the folder `facebook-data-anonymous`. To get a sense of how the data in each file is structured, check out `datastructures.json`. This file contains the basic anonymization rules, and can give a less overwhelming sense of the barebones structure of the data set.
+The anonymized Facebook data can be found in the folder `facebook-data-anonymous`. To get a sense of how the data in each file is structured, check out the `facebook-data-examples` folder for some fun examples using the made up profile of Alan Aaronson. Then you can go to `datastructures.json` for the anonymization rules, which give a less overwhelming sense of the barebones structure of the data set.
 
 More technically inclined users can either poke around this data using pandas in a Jupyter Notebook or download and anonymize their own data.
 
