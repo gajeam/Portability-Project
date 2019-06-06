@@ -618,7 +618,76 @@
       ]
     }
   },
-  "profile_information/profile_update_history.json": "MANUAL",
+  "profile_information/profile_update_history.json": {
+    "profile_updates": [
+      {
+        "timestamp": "TIMESTAMP",
+        "attachments": [
+          {
+            "data": [
+              {
+                "life_event": {
+                  "title": "TITLE",
+                  "description": "TEXT",
+                  "start_date": {
+                    "year": "CUSTOM:1990",
+                    "month": "CUSTOM:12",
+                    "day": "CUSTOM:31"
+                  },
+                  "place": {
+                    "name": "LOCATION",
+                    "coordinate": {
+                      "latitude": "LAT",
+                      "longitude": "LON"
+                    },
+                    "address": "ADDRESS",
+                    "url": "URL"
+                  }
+                },
+                "place": {
+                  "name": "LOCATION",
+                  "coordinate": {
+                    "latitude": "LAT",
+                    "longitude": "LON"
+                  },
+                  "address": "ADDRESS",
+                  "url": "URL"
+                },
+                "media": {
+                  "uri": "URI",
+                  "creation_timestamp": "TIMESTAMP",
+                  "media_metadata": {
+                    "photo_metadata": {
+                      "upload_ip": "IP_ADDRESS"
+                    }
+                  },
+                  "comments": [
+                    {
+                      "timestamp": "TIMESTAMP",
+                      "comment": "TEXT",
+                      "author": "NAME"
+                    }
+                  ],
+                  "title": "TITLE",
+                  "description": "TEXT"
+                }
+              }
+            ]
+          }
+        ],
+        "data": [
+          {
+            "backdated_timestamp": "TIMESTAMP",
+            "profile_update": {
+              "field": "TITLE",
+              "data": "TEXT"
+            }
+          }
+        ],
+        "title": "TITLE"
+      }
+    ]
+  },
   "saved_items_and_collections/saved_items_and_collections.json": {
     "saves_and_collections": [
       {

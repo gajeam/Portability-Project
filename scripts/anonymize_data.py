@@ -42,14 +42,21 @@ def write_anonymized_file(filename):
     os.makedirs(directory, exist_ok=True)
 
     output_data = anonymize_file(filename)
+    if output_data is None:
+        return
     with open(output_file, 'w') as f:
         json.dump(output_data, f, indent=2)
 
     # Create the directory if it does not exist in
 
 def anonymize_file(filename):
-    with open("{}/{}".format(DIRECTORY_FACEBOOK_DATA, filename), 'r') as f:
-        data = json.load(f)
+    filepath = "{}/{}".format(DIRECTORY_FACEBOOK_DATA, filename)
+    try:
+        with open(filepath, 'r') as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print('No data available for file at path {}'.format(filepath))
+        return None
     with open(DIRECTORY_DATASTRUCTURES, 'r') as d:
         cleaning_rules = json.load(d)[filename]
     cleaned_data = _apply_rules_to_json(cleaning_rules, data)
